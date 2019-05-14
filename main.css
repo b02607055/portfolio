@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif, 'Noto Sans TC', ;
+    background-color: #F2F2F2;
+    color: #5C6170;
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: #F2BAB1;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+#home {
+    margin-top: 50px;
+}
+
+.marketing div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marketing div p {
+    text-align: left;
+}
+
+.navbar-wrapper {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+}
+
+.img-responsive {
+    display: block;
+    margin: 0 auto;
+}
+
+dd > *:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#navbar {
+    background-color: #F2F2F2;
+}
+
+.section {
+
+    padding: 0 0;
+    position: relative;
+    background: #F2F2F2;
+
+}
+
+
+
+
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+/*    -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);*/
+/*    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);*/
+}
+
+.card-body {
+    min-height: 190px;
+}
+
+.progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #DECCC0;
+}
+
+.progress {
+    height: 1px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #F2BAB1;
+    margin-top: 14px;
+}
+.progress-container {
+  position: relative;
+}
+
+.progress-container + .progress-container,
+.progress-container ~ .progress-container {
+  margin-top: 15px;
+}
+
+.progress-container .progress-badge {
+  color: #DECCC0;
+  font-size: 0.8571em;
+  text-transform: uppercase;
+}
+
+.progress-container .progress {
+  height: 1px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #F2BAB1;
+  margin-top: 14px;
+}
+
+.progress-container .progress .progress-bar {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #DECCC0;
+}
+
+.progress-container .progress .progress-value {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  color: #888;
+  font-size: 0.8571em;
+}
+
+.progress-container.progress-neutral .progress {
+  background: #F2BAB1;
+}
+
+.progress-container.progress-neutral .progress-bar {
+  background: #DECCC0;
+}
+
+.progress-container.progress-neutral .progress-value,
+.progress-container.progress-neutral .progress-badge {
+  color: #DECCC0;
+}
+
+.progress-container.progress-primary .progress {
+  background: #F2BAB1;
+    /* bar color  */
+}
+
+.progress-container.progress-primary .progress-bar {
+  background: #c1e4ee;
+    /*  progress color  */
+}
+
+.progress-container.progress-primary .progress-value,
+.progress-container.progress-primary .progress-badge {
+  color: #5C6170
+/*  text color  */
+}
+
+.progress-container.progress-info .progress {
+  background: #DECCC0;
+}
+
+.progress-container.progress-info .progress-bar {
+  background:#C8E7DF;
+}
+
+.progress-container.progress-info .progress-value,
+.progress-container.progress-info .progress-badge {
+  color: #F2BAB1;
+}
+
+.progress-container.progress-success .progress {
+  background: #F2BAB1;
+    /*  bar color  */
+}
+
+.progress-container.progress-success .progress-bar {
+  background: #F2BAB1;
+}
+
+.progress-container.progress-success .progress-value,
+.progress-container.progress-success .progress-badge {
+  color: #F2BAB1;
+}
+
+.progress-container.progress-warning .progress {
+  background: #F2BAB1;
+}
+
+.progress-container.progress-warning .progress-bar {
+  background: #FFB236;
+}
+
+.progress-container.progress-warning .progress-value,
+.progress-container.progress-warning .progress-badge {
+  color: #F2BAB1;
+}
+
+.progress-container.progress-danger .progress {
+  background: #F2BAB1;
+}
+
+.progress-container.progress-danger .progress-bar {
+  background: #FF3636;
+}
+
+.progress-container.progress-danger .progress-value,
+.progress-container.progress-danger .progress-badge {
+  color: #F2BAB1;
+}
+/* Professional Skills Style */
+.progress-container {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.progress-container .progress-bar {
+  height: 5px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+.progress-container .progress {
+  height: 5px;
+  font-size: 18px;
+}
+
+.progress-container .aos-animate {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
