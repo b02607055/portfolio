@@ -134,9 +134,14 @@
             <h2 class="featurette-heading">About <span class="text-muted">me</span></h2>
             <div class="row">
                 <div>
-                    <p class="lead"><img id="preview" class="img-circle" style="display:inline; float:left; margin-right:5px;" src="assets/R06342003.jpg" onmouseover="document.getElementById('preview').src='assets/IMG_2760.JPG';" onmouseout="document.getElementById('preview').src='assets/R06342003.jpg';" width="150" height="200">
-                        <p style="font-size: 15pt;line-height: 1.6;font-weight: 400"><br>&nbsp; 許家瑜 Chiayu Hsu<br> &nbsp; 0989-170-651<br> &nbsp; r06342003@ntu.edu.tw  <br> &nbsp; 臺大新聞所碩士二年級
+                    <p class="lead">
+                        <a  onmouseover="mouseOver()" onmouseout="mouseOut()">
+                            <img class="img-circle" style="display:inline; float:left; margin-right:5px;" alt="no pic" src="assets/R06342003.jpg" id="b1" width="150" height="200" />
+                        </a>
+<!--                        <img id="preview" class="img-circle" style="display:inline; float:left; margin-right:5px;" src="assets/R06342003.jpg" onmouseover="document.getElementById('preview').src='assets/IMG_2760.JPG';" onmouseout="document.getElementById('preview').src='assets/R06342003.jpg';" width="150" height="200">-->
+                        <p style="font-size: 15pt;line-height: 1.6;font-weight: 400"><br>&nbsp; 許家瑜 Chiayu Hsu<br> &nbsp; 0989-170-651<br> &nbsp; r06342003@ntu.edu.tw <br> &nbsp; 臺大新聞所碩士二年級
                         </p>
+
 
                 </div>
             </div>
@@ -147,7 +152,7 @@
         <hr class="featurette-divider">
         <div class="featurette" id="skill">
             <div class="container">
-               <h2 class="featurette-heading"> <span class="text-muted">Skills</span></h2>
+                <h2 class="featurette-heading"> <span class="text-muted">Skills</span></h2>
                 <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="card-body">
                         <div class="row">
@@ -500,15 +505,23 @@
     <!-- IGNORE Everything below this line... seriously. You'll just freak out. -->
 
 
-  <script src="js/core/jquery.3.2.1.min.js"></script>
+    <script src="js/core/jquery.3.2.1.min.js"></script>
     <script src="js/core/popper.min.js"></script>
     <script src="js/core/bootstrap.min.js"></script>
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
-    
+    <script type="text/javascript">
+        function mouseOver() {
+            document.getElementById('b1').src = "assets/IMG_2760.JPG"
+        }
+
+        function mouseOut() {
+            document.getElementById('b1').src = "assets/R06342003.jpg"
+        }
+    </script>
+
     <script type="text/javascript" charset="utf-8">
-        
         jQuery(document).ready(function($) {
 
 
@@ -589,9 +602,8 @@
                 }
             });
         });
-
     </script>
-  
+
 </body>
 
 </html>
