@@ -139,12 +139,12 @@ dd > *:first-child {
 }
 
 .progress-container.progress-primary .progress {
-  background: #F2BAB1;
+  background: #c1e4ee;
     /* bar color  */
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #c1e4ee;
+  background: #F2BAB1;
     /*  progress color  */
 }
 
